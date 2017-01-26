@@ -54,7 +54,7 @@
                                     <action selector="btn_8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gis-yJ-8dD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label" text="Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAL-J3-CKZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="label" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAL-J3-CKZ">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="0aw-sD-CJa"/>
                                     <constraint firstAttribute="height" constant="21" id="lsc-91-5rw"/>
@@ -405,7 +405,6 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="btn_0" destination="92r-tq-p7q" id="SF5-pQ-k3B"/>
                         <outlet property="lbl_Pin" destination="mAL-J3-CKZ" id="mfN-dz-sTD"/>
                     </connections>
                 </viewController>
