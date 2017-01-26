@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
         //lol2
     }
 
@@ -22,6 +23,42 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    @IBAction func btn_0(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_1(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_2(_ sender: AnyObject) {
+    }
+    
 
+    @IBAction func btn_3(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_4(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_5(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_6(_ sender: AnyObject) {
+    }
+    
+  
+    @IBAction func btn_7(_ sender: AnyObject) {
+    }
+    
+    @IBAction func btn_8(_ sender: AnyObject) {
+    }
+
+    @IBAction func btn_9(_ sender: AnyObject) {
+    }
+    
+    @IBOutlet weak var lbl_Pin: UILabel!
+    
+    
 }
 
