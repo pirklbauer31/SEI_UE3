@@ -30,7 +30,7 @@ class AddItemViewController: UIViewController {
         let bucketTask = NSEntityDescription.insertNewObject(forEntityName: "BucketTask", into: self.managedContext!) as! BucketTask
         bucketTask.content = data
         
-        
+        save()
         
         self.performSegue(withIdentifier: "backToBucketList", sender: self)
     }
