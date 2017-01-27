@@ -14,6 +14,11 @@
 		3F2E39931E39F52E001DBFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2E39911E39F52E001DBFCC /* LaunchScreen.storyboard */; };
 		3F2E399E1E39F52E001DBFCC /* UE3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E399D1E39F52E001DBFCC /* UE3Tests.swift */; };
 		3F2E39A91E39F52E001DBFCC /* UE3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2E39A81E39F52E001DBFCC /* UE3UITests.swift */; };
+		3FFBE3251E3B879900773530 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE3241E3B879900773530 /* AddItemViewController.swift */; };
+		3FFBE3271E3B890300773530 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE3261E3B890300773530 /* BucketListViewController.swift */; };
+		3FFBE32A1E3B8C9F00773530 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE3281E3B8C9F00773530 /* Model.xcdatamodeld */; };
+		3FFBE32D1E3B93F500773530 /* BucketTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE32B1E3B93F500773530 /* BucketTask+CoreDataClass.swift */; };
+		3FFBE32E1E3B93F500773530 /* BucketTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFBE32C1E3B93F500773530 /* BucketTask+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		3F2E39A41E39F52E001DBFCC /* UE3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UE3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2E39A81E39F52E001DBFCC /* UE3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UE3UITests.swift; sourceTree = "<group>"; };
 		3F2E39AA1E39F52E001DBFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFBE3241E3B879900773530 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		3FFBE3261E3B890300773530 /* BucketListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
+		3FFBE3291E3B8C9F00773530 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		3FFBE32B1E3B93F500773530 /* BucketTask+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BucketTask+CoreDataClass.swift"; path = "../BucketTask+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3FFBE32C1E3B93F500773530 /* BucketTask+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BucketTask+CoreDataProperties.swift"; path = "../BucketTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		3F2E39871E39F52E001DBFCC /* UE3 */ = {
 			isa = PBXGroup;
 			children = (
+				3FFBE32B1E3B93F500773530 /* BucketTask+CoreDataClass.swift */,
+				3FFBE32C1E3B93F500773530 /* BucketTask+CoreDataProperties.swift */,
 				3F2E39881E39F52E001DBFCC /* AppDelegate.swift */,
+				3FFBE3281E3B8C9F00773530 /* Model.xcdatamodeld */,
 				3F2E398A1E39F52E001DBFCC /* ViewController.swift */,
 				3F2E398C1E39F52E001DBFCC /* Main.storyboard */,
 				3F2E398F1E39F52E001DBFCC /* Assets.xcassets */,
 				3F2E39911E39F52E001DBFCC /* LaunchScreen.storyboard */,
 				3F2E39941E39F52E001DBFCC /* Info.plist */,
+				3FFBE3241E3B879900773530 /* AddItemViewController.swift */,
+				3FFBE3261E3B890300773530 /* BucketListViewController.swift */,
 			);
 			path = UE3;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFBE32E1E3B93F500773530 /* BucketTask+CoreDataProperties.swift in Sources */,
 				3F2E398B1E39F52E001DBFCC /* ViewController.swift in Sources */,
 				3F2E39891E39F52E001DBFCC /* AppDelegate.swift in Sources */,
+				3FFBE32A1E3B8C9F00773530 /* Model.xcdatamodeld in Sources */,
+				3FFBE3271E3B890300773530 /* BucketListViewController.swift in Sources */,
+				3FFBE32D1E3B93F500773530 /* BucketTask+CoreDataClass.swift in Sources */,
+				3FFBE3251E3B879900773530 /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				3F2E39AF1E39F52E001DBFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2E39B01E39F52E001DBFCC /* Build configuration list for PBXNativeTarget "UE3Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				3F2E39B21E39F52E001DBFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F2E39B31E39F52E001DBFCC /* Build configuration list for PBXNativeTarget "UE3UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,8 +543,22 @@
 				3F2E39B51E39F52E001DBFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FFBE3281E3B8C9F00773530 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FFBE3291E3B8C9F00773530 /* Model.xcdatamodel */,
+			);
+			currentVersion = 3FFBE3291E3B8C9F00773530 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F2E397D1E39F52E001DBFCC /* Project object */;
 }
