@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  UE3
+//  UE4 (extension from UE3)
 //
 //  David Binder, S1510237001
 //  Kevin Pirklauer, S1510237028
